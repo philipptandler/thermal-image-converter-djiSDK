@@ -51,7 +51,7 @@ This repository contains a Python script that converts thermal JPEG images captu
     pip install tqdm
    ```
 
-4. **Make sure ExiTool is available to your computer:**
+4. **Make sure ExifTool is available to your computer:**
     - You can download `exiftool` from [here](https://exiftool.org/) (recommended) or use the zipped version in `tools\exiftool-13.40_64` as fallback. After download or extraction, it should look like this:
     ```
     exiftool-version_64/
@@ -66,11 +66,8 @@ This repository contains a Python script that converts thermal JPEG images captu
 
         - Alternatively, you can place the `exiftool_files/` folder and the `exiftool.exe` directly in the root directory of the repository. Be aware that this will add roughly 40 MB storage space to your repository. You can avoid this by adjusting the `.gitignore` file to exclude `exiftool_files/*` and `exiftool.exe*`.
 
-    - To test the installation, run from the project root:
-    ```sh
-    exiftool
-    ```
-    Which should display the documentation of `exiftool`. Press `q` to exit.
+    - To test the installation, run from the project root (or anywhere really) `exiftool`+Enter, which should display the documentation of `exiftool`. Press `q` to exit.
+
     - To see where the exiftool is located, use:
     ```sh
     where exiftool
@@ -93,6 +90,28 @@ This repository contains a Python script that converts thermal JPEG images captu
       └── Readme.md
       ```
       Place it in the root directory.
+
+6. **Check your setup**
+    - Your root directory should look similar to this:
+          ```
+      thermal-image-converter/
+      ├── .git/
+      ├── dji_thermal_sdk/
+      ├── (exiftool_files/, if you decide to work with local exiftool)
+      ├── tools/
+      ├── .gitignore
+      ├── dji_thermal_converter.py
+      ├── (exiftool.exe, if you decide to work with local exiftool)
+      ├── LICENSE
+      ├── Readme.md
+      ├── sort_images.py
+      └── wrapper.py
+      ```
+    - To test the exiftool installation, run from the project root:
+    ```sh
+    exiftool
+    ```
+    - This should display the documentation of `exiftool`. Press `q` to exit.
 
 ## Usage
 This is the most basic workflow:
