@@ -93,7 +93,7 @@ This repository contains a Python script that converts thermal JPEG images captu
 
 6. **Check your setup**
     - Your root directory should look similar to this:
-          ```
+      ```
       thermal-image-converter/
       ├── .git/
       ├── dji_thermal_sdk/
