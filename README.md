@@ -1,6 +1,6 @@
 # Thermal Image Converter
 Original Author: Alexis Suero (alexis.esmb@gmail.com).  
-Enhancements: Philipp Tandler (philipp.tandler@protonmail.ch).
+Enhancements: Philipp Tandler (philipp_sbx@hotmail.com).
 
 This repository contains a Python script that converts thermal JPEG images captured by DJI drones into TIFF format containing a single layer with temperature values in Celsius. The converted images are saved in the "output_images" folder.
 
