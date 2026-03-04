@@ -25,7 +25,7 @@ This repository contains a Python script that converts thermal JPEG images captu
 
     ```sh
     git clone https://github.com/philipptandler/thermal-image-converter-djiSDK.git
-    cd thermal-image-converter
+    cd thermal-image-converter-djiSDK
     ```
 2. **Create a virtual environment:**
 
