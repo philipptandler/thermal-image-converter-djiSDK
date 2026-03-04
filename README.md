@@ -1,6 +1,6 @@
 # Thermal Image Converter
 Original Author: Alexis Suero (alexis.esmb@gmail.com).  
-Enhancements: Philipp Tandler (philipp_sbx@hotmail.com).
+Enhancements: Philipp Tandler (philipp.tandler@protonmail.ch).
 
 This repository contains a Python script that converts thermal JPEG images captured by DJI drones into TIFF format containing a single layer with temperature values in Celsius. The converted images are saved in the "output_images" folder.
 
@@ -24,7 +24,7 @@ This repository contains a Python script that converts thermal JPEG images captu
 1. **Clone the repository:**
 
     ```sh
-    git clone https://github.com/philipptandler/thermal-image-converter.git
+    git clone https://github.com/philipptandler/thermal-image-converter-djiSDK.git
     cd thermal-image-converter
     ```
 2. **Create a virtual environment:**
@@ -94,7 +94,7 @@ This repository contains a Python script that converts thermal JPEG images captu
 6. **Check your setup**
     - Your root directory should look similar to this:
       ```
-      thermal-image-converter/
+      thermal-image-converter-djiSDK/
       ├── .git/
       ├── dji_thermal_sdk/
       ├── (exiftool_files/, if you decide to work with local exiftool)
